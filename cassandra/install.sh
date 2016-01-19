@@ -5,6 +5,9 @@ echo "*** Installing Cassandra"
 curl -SL http://downloads.datastax.com/community/dsc-cassandra-$CASSANDRA_VERSION-bin.tar.gz | tar xz
 mv dsc-cassandra-$CASSANDRA_VERSION/* /cassandra/
 
+echo "*** updating apk"
+apk update
+
 echo "*** Installing Python"
 apk add python
 
