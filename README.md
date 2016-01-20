@@ -14,7 +14,7 @@ under the [OpenZipkin](https://quay.io/organization/openzipkin) organization, an
 ## Running
 
 Use [docker-compose](https://docs.docker.com/compose/) by doing
-`docker-compose up`.
+`docker-compose up` (note: I think this pulls remote pre-made builds).
 
 See the ui at (docker ip):8080
 
